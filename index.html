@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marketing</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Car Purchase Information</h2>
+        <div id="survey">
+        <form>
+          <div class="form-group">
+            <label for="name">Enter Your Name:</label>
+            <input id="first" class="form-control" type="text" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <input id="last" class="form-control" type="text" placeholder="Last Name">
+          </div>
+          <div class="form-group">
+            <label for="address">Enter Your Address:</label>
+            <input id="street" class="form-control" type="text" placeholder="Street">
+          </div>
+          <div class="form-group">
+            <input id="city" class="form-control" type="text" placeholder="City">
+          </div>
+          <div class="form-group">
+            <input id="state" class="form-control" type="text" placeholder="State">
+          </div>
+          <div class="form-group">
+            <input id="zip" class="form-control" type="text" placeholder="Zip Code">
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+
+
+      <div id="receipt">
+        <p>
+          Thanks, <span class="first"></span>, for you purchase.  I hope you enjoy your new car!<br>
+          <br>
+          <strong>Reciept</strong><br>
+          <span class="first"></span><span class="last"></span><br>
+          <span class="street"></span>
+          <span class="city"></span>
+          <span class="state"></span><br>
+          <span class="zip"></span>
+        </p>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
